@@ -6,10 +6,11 @@ body {
   /* min-height: 100vh; */
   /* min-width: 100%; */
   /* overflow-x: hidden; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: flex-end; */
-  padding-left: 20vmin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* padding-left: 20vmin; */
   /* background-color: antiquewhite; */
 }
 .navigation {
@@ -180,6 +181,10 @@ hr {
   justify-content: center;
   /* background-color: aqua; */
 }
+#workimg {
+  height: 100%;
+  /* width: 200vmin; */
+}
 @media (max-width: 1015px) {
   .container {
     flex-direction: column-reverse;
@@ -190,5 +195,14 @@ hr {
   }
   .col2 {
     margin-bottom: 10vmin;
+  }
+  .icondiv {
+    display: none;
+  }
+  .nav-span {
+    width: 30vmin;
+  }
+  .hr {
+    display: none;
   }
 }
