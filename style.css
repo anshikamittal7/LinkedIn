@@ -189,9 +189,13 @@ hr {
   .container {
     flex-direction: column-reverse;
   }
+  #heading {
+    text-align: center;
+  }
   .col1 {
     /* background-color: antiquewhite  ; */
     margin-bottom: 10vmin;
+    align-items: center;
   }
   .col2 {
     margin-bottom: 10vmin;
