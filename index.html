@@ -13,59 +13,167 @@
 </head>
 
 <body>
-    <nav class="navigation">
-        <img src="Linkedin-Logo.png" alt="logo" id="logo">
-        <span class="nav-span">
-            <a class="icondiv">
-                <i class='fa fa-solid fa-compass' style="font-size:3vmin"></i>
-                <div>Discover</div>
-            </a>
-            <a class="icondiv">
-                <i class='fa fa-solid fa-person' style="font-size:3vmin"></i>
-                <div>People</div>
-            </a>
-            <a class="icondiv">
-                <i class='fa fa-solid fa-book' style="font-size:3vmin"></i>
-                <div>Learning</div>
-            </a>
-            <a class="icondiv">
-                <i class='fa fa-solid fa-briefcase' style="font-size:3vmin"></i>
-                <div>Jobs</div>
-            </a>
 
-            <hr class='hr' style="width: 6vmin; transform: rotate(90deg);">
-            </hr>
-            <div id="joinnow">Join now</div>
-            <button id="signup">Sign up</button>
-        </span>
-    </nav>
-    <div class="container row">
-        <div class="col col1">
-            <h1 id="heading">Welcome to your professional community</h1>
-            <form action="">
-                <input multiple id="email" placeholder="Email or phone number" class="form-control" required>
+    <div class="container">
+        <nav class="navigation">
+            <img src="Linkedin-Logo.png" alt="logo" id="logo">
+            <span class="nav-span">
+                <a class="icondiv">
+                    <i class='fa fa-solid fa-compass' style="font-size:3vmin"></i>
+                    <div>Discover</div>
+                </a>
+                <a class="icondiv">
+                    <i class='fa fa-solid fa-person' style="font-size:3vmin"></i>
+                    <div>People</div>
+                </a>
+                <a class="icondiv">
+                    <i class='fa fa-solid fa-book' style="font-size:3vmin"></i>
+                    <div>Learning</div>
+                </a>
+                <a class="icondiv">
+                    <i class='fa fa-solid fa-briefcase' style="font-size:3vmin"></i>
+                    <div>Jobs</div>
+                </a>
 
-                <div class="showpw">
-                    <input type="password" id="pw" placeholder="Password" class="form-control" required>
-                    <div id="show">Show</div>
+                <hr class='hr' style="width: 6vmin; transform: rotate(90deg);">
+                </hr>
+                <div id="joinnow">Join now</div>
+                <button id="signup">Sign up</button>
+            </span>
+        </nav>
+        <div class="row r1">
+            <div class="col col1">
+                <h1 id="heading">Welcome to your professional community</h1>
+                <form action="">
+                    <input multiple id="email" placeholder="Email or phone number" class="form-control" required>
+
+                    <div class="showpw">
+                        <input type="password" id="pw" placeholder="Password" class="form-control" required>
+                        <div id="show">Show</div>
+                    </div>
+                    <div id="forgotpw">Forgot password?</div>
+                    <button id="signin">Sign in</button>
+                    <br>
+                    <span class="span">
+                        <hr>
+                        <div id="or">or</div>
+                        <hr>
+                    </span>
+                    <button id="signinwithgoogle">
+                        <img src="google.png" alt="img" class="google">Sign in with
+                        Google</button>
+
+                </form>
+            </div>
+            <div class="col col2">
+                <img src="img1.jpg" class="img-fluid" alt="img" id="workimg">
+            </div>
+        </div>
+
+        <div class="row r2">
+            <div class="col r2c1">
+                <div id="explore">
+                    Explore topics you are interested in
                 </div>
-                <div id="forgotpw">Forgot password?</div>
-                <button id="signin">Sign in</button>
-                <br>
-                <span class="span">
-                    <hr>
-                    <div id="or">or</div>
-                    <hr>
-                </span>
-                <button id="signinwithgoogle">
-                    <img src="google.png" alt="img" class="google">Sign in with
-                    Google</button>
+            </div>
+            <div class="col r2c2">
+                <div class="content">CONTENT TOPICS</div>
+                <button class="r2btn">See All Topics</button>
+                <button class="r2btn">Remote</button>
+                <button class="r2btn">Work From Home</button>
+                <button class="r2btn">Retirement</button>
+                <button class="r2btn">Internships</button>
+                <button class="r2btn">Freelancer</button>
+                <button class="r2btn">Salary and Compensation</button>
+                <button class="r2btn">Starting a Job</button>
+            </div>
+        </div>
+        <div class="row r3">
+            <div class="col r3c1">
+                <div id="find">
+                    Find the right job or internship for you
+                </div>
+            </div>
+            <div class="col r3c2">
+                <div class="content">SUGGESTED SEARCHES</div>
+                <button class="r3btn">See All Topics</button>
+                <button class="r3btn">Remote</button>
+                <button class="r3btn">Work From Home</button>
+                <button class="r3btn">Retirement</button>
+                <button class="r3btn">Internships</button>
+                <button class="r3btn">Freelancer</button>
+                <button class="r3btn">Salary and Compensation</button>
+                <button class="r3btn">Starting a Job</button>
+            </div>
+        </div>
+        <div class="row r4">
+            <div class="col r4c1">
+                <div id="post">
+                    Post your job for millions of people to see
+                </div>
+            </div>
+            <div class="col r4c2">
+                <button class="r4btn">Post a job</button>
 
-            </form>
+            </div>
         </div>
-        <div class="col col2">
-            <img src="img1.jpg" class="img-fluid" alt="img" id="workimg">
+
+
+        <div class="row r5">
+            <div class="col r5c1">
+                <div id="let">
+                    Let the right people know you’re open to work
+                </div>
+                <div id="with">
+                    With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn
+                    community that you are looking for new job opportunities.
+                </div>
+            </div>
+            <div class="col r5c2">
+                <img src="r5img1.png" alt="img">
+
+            </div>
         </div>
+        <div class="scroller">
+            <span class="scroll">
+                <i class='fas fa-chevron-left' style='font-size:3vmin'></i>
+                <span>Previous</span>
+            </span>
+            <span class="scroll">
+                <span>Next</span>
+                <i class='fas fa-chevron-right' style='font-size:3vmin'></i>
+            </span>
+        </div>
+        <!-- 
+        <div class="row r5 d-none">
+            <div class="col r5c1">
+                <div id="let">
+                    Conversations today could lead to opportunity tomorrow
+                </div>
+                <div id="with">
+                    Sending messages to people you know is a great way to strengthen relationships as you take the next
+                    step in your career.
+                </div>
+            </div>
+            <div class="col r5c2">
+                <img src="r5img2.png" alt="img">
+            </div>
+        </div>
+
+        <div class="row r5 d-none">
+            <div class="col r5c1">
+                <div id="let">
+                    Stay up to date on your industry
+                </div>
+                <div id="with">
+                    From live videos, to stories, to newsletters and more, LinkedIn is full of ways to stay up to date
+                    on the latest discussions in your industry.
+                </div>
+            </div>
+            <div class="col r5c2">
+                <img src="r5img3.png" alt="img">
+            </div>
+        </div> -->
     </div>
 
     <script src="script.js"></script>
